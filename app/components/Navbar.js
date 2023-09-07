@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import Image from "next/image";
-import logo from "../../../public/material-symbols_school-outline.svg";
-import profile from "../../../public/mingcute_user-4-line.svg";
+import logo from "../../public/material-symbols_school-outline.svg";
+import profile from "../../public/mingcute_user-4-line.svg";
 import Link from "next/link";
 const Navbar = () => {
   const [nav, setNav] = useState(false);

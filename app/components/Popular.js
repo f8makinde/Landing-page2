@@ -1,7 +1,7 @@
 import React from 'react'
-import minimize from "../../../public/minimize.svg"
-import map from "../../../public/map-pin.svg"
-import next from "../../../public/Group 2.svg"
+import minimize from "../../public/minimize.svg"
+import map from "../../public/map-pin.svg"
+import next from "../../public/Group 2.svg"
 import Image from 'next/image'
 
 const Popular = () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import courseIcon from "../../../public/codesandbox.svg"
+import courseIcon from "../../public/codesandbox.svg"
 import Image from 'next/image'
 const Categories = () => {
   return (

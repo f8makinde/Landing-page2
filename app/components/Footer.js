@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../../../public/material-symbols_school-outline.svg";
+import logo from "../../public/material-symbols_school-outline.svg";
 import Image from 'next/image';
 const navigation = {
     aboutUs: [

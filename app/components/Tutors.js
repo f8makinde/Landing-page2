@@ -1,9 +1,9 @@
 import React from 'react'
-import woman from "../../../public/photo_2022-05-11_00-14-57 4.png"
-import man from "../../../public/photo_2022-05-11_00-14-57 4 (1).png"
-import bookmark from "../../../public/bookmark-sharp.svg"
-import Line from "../../../public/Line 2.svg"
-import Mask from "../../../public/Mask group.svg"
+import woman from "../../public/photo_2022-05-11_00-14-57 4.png"
+import man from "../../public/photo_2022-05-11_00-14-57 4 (1).png"
+import bookmark from "../../public/bookmark-sharp.svg"
+import Line from "../../public/Line 2.svg"
+import Mask from "../../public/Mask group.svg"
 import Image from 'next/image'
 import Link from 'next/link'
 export default function Tutors() {
