@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <main className="w-full bg-[#EFF6F2]">
       <div className="mx-auto max-w-[1440px] flex md:flex-row flex-col justify-between">
-        <div className="px-4 md:w-7/12 pt-[100px] sm:px-8 ">
+        <div className="px-4 md:w-7/12 md:pt-[100px] pt-10 sm:px-8 ">
           <h1 className="text-4xl tracking-wide font-bold text-black leading-10 sm:text-5xl md:text-6xl lg:text-5xl xl:text-[70px]">
             <span className="block xl:inline">Get the perfect</span>{" "}
             <span className="block text-primary xl:inline">Tutor</span>{" "}
@@ -18,13 +18,13 @@ const Hero = () => {
             ipsum dolor sit amet consectetur. Ut neque est viverra. est viverra.
           </p>
           <div>
-            <div className="bg-white flex md:flex-row flex-col mt-[103px] justify-between py-[2px] rounded-[20px]">
+            <div className="bg-white flex md:flex-row flex-col md:mt-[103px] mt-20 justify-between py-[2px] rounded-[20px]">
               <input
                 type="text"
                 placeholder="Search a Topic or Tutor name....................."
-                className="outline-none bg-transparent font-bold text-greyDark md:w-[386px] md:pl-16 pl-4 py-2"
+                className="outline-none bg-transparent font-bold text-greyDark md:w-[386px] md:pl-16 pl-4 md:py-2 py-4"
               />
-              <button className="font-bold bg-primary rounded-[10px] text-white px-[46px] py-6">
+              <button className="font-bold bg-primary rounded-[10px] text-white px-[46px] py-3 md:py-6">
                 Search
               </button>
             </div>

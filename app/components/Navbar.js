@@ -48,49 +48,47 @@ const Navbar = () => {
           </div>
         </div>
         <div></div>
-
-        <div
-          className="md:hidden flex items-center justify-between"
-          onClick={handleNav}
-        >
-          <Image src={logo} alt="logo" />
-          {nav ? <AiOutlineClose size={25} /> : <FaBars size={25} />}
+       <div className="flex flex-col sticky w-full bg-white h-full overflow-hidden top-0 md:hidden">
+        <div className="flex justify-between w-full items-center"    onClick={handleNav}>
+            <Image src={logo} alt="logo" className="shrink-0 w-12 h-12"/>
+          {nav ? <AiOutlineClose size={20} className="cursor-pointer"/> : <FaBars size={20} className="cursor-pointer"/>}
+            </div>
           <div
             className={
               nav
-                ? "w-full flex flex-col left-0 absolute top-0 mt-16 py-8 bg-gray-200"
+                ? "w-full flex flex-col"
                 : "hidden"
             }
-          >
+          >           
             <ul className="flex flex-col text-secondary">
-              <li className="py-3 px-4 text-lg">
+              <li className="py-3 px-3 text-lg">
                 <Link href="/">Home</Link>
               </li>
-              <li className="py-3 px-4 text-lg">
+              <li className="py-3 px-3 text-lg">
                 <Link href="/">What we do</Link>
               </li>
-              <li className="py-3 px-4 text-lg">
+              <li className="py-3 px-3 text-lg">
                 <Link href="/">Hire a Tutor</Link>
               </li>
-              <li className="py-3 px-4 text-lg">
+              <li className="py-3 px-3 text-lg">
                 <Link href="/">Find Students</Link>
               </li>
-              <li className="py-3 px-4 text-lg">
+              <li className="py-3 px-3 text-lg">
                 <Link href="/">Jobs</Link>
               </li>
-              <li className="py-3 px-4 text-lg">
+              <li className="py-3 px-3 text-lg">
                 <Link href="/">Contact Us</Link>
               </li>
+              <li className="py-3 px-3 text-lg">
+                <Link href="/">Sign in</Link>
+              </li>
+              <li className="py-3 px-3 text-lg">
+                <Link href="/">Sign up</Link>
+              </li>
             </ul>
-            <div className="w-full flex flex-col">
-              <button className="px-2 bg-transparent text-black">
-                Sign in
-              </button>
-              <button className="px-4 mx-4 py-4 rounded-md">Sign up</button>
-            </div>
           </div>
         </div>
-      </div>
+        </div>
     </nav>
   );
 };
